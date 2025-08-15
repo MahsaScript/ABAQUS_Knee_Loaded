@@ -1,0 +1,81 @@
+# -*- coding: mbcs -*-
+from part import *
+from material import *
+from section import *
+from assembly import *
+from step import *
+from interaction import *
+from load import *
+from mesh import *
+from optimization import *
+from job import *
+from sketch import *
+from visualization import *
+from connectorBehavior import *
+mdb.openSolidworks(fileName=
+    'C:/Users/mofid/Desktop/New Healthy/Right_Healthy_knee.SLDPRT', topology=
+    SOLID)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* SolidWorks file.
+mdb.openSolidworks(fileName=
+    'C:/Users/mofid/Desktop/New Healthy/Right_Healthy_knee.SLDPRT', topology=
+    SOLID)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* SolidWorks file.
+mdb.openSolidworks(fileName=
+    'C:/Users/mofid/Desktop/New Healthy/Right_Healthy_knee.SLDPRT', topology=
+    SOLID)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* SolidWorks file.
+mdb.openStep('C:/Users/mofid/Desktop/New Healthy/Right_Healthy_knee.STEP', 
+    scaleFromFile=OFF)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* STEP file.
+mdb.openSolidworks(fileName=
+    'C:/Users/mofid/Desktop/New Healthy/Right_Healthy_knee.SLDPRT', topology=
+    SOLID)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* SolidWorks file.
+mdb.openSolidworks(fileName=
+    'C:/Users/mofid/Desktop/New Healthy/Right_Healthy_knee.SLDPRT', topology=
+    SOLID)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* SolidWorks file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=False, scaleFromFile=OFF, trimCurve=PARAMETRIC_DATA)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.openIges('C:/Users/mofid/Downloads/AnyConv.com__Right_Healthy_knee.iges', 
+    msbo=True, scaleFromFile=OFF, trimCurve=DEFAULT)
+#* The file cannot be read. It may be corrupt or not a valid 
+#* IGES file.
+mdb.ModelFromInputFile(inputFileName=
+    'C:\\Users\\mofid\\Desktop\\New Healthy\\Right_Healthy_knee.inp', name=
+    'Right_Healthy_knee')
+mdb.models['Right_Healthy_knee'].parts['PART-1'].mergeNodes(nodes=
+    mdb.models['Right_Healthy_knee'].parts['PART-1'].nodes, tolerance=1e-06)
+# Save by mofid on 2023_09_20-01.26.53; build 2021.HF3 2020_09_29-22.11.46 167722

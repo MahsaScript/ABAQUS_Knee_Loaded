@@ -1,0 +1,16 @@
+[StartTime]
+Knee_meshing-Static 2.MFC=15s
+[SolverState]
+Knee_meshing-Static 2.MFC=2
+[MainFrame]
+Knee_meshing-Static 2.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMMBAAAAAHCBAAAAAEDDAAAAAKPBAAAAA
+[ShowMin]
+Knee_meshing-Static 2.MFC=No
+[SolverType]
+Knee_meshing-Static 2.MFC=Linear Analysis
+[StudyType]
+Knee_meshing-Static 2.MFC=0
+[StudyName]
+Knee_meshing-Static 2.MFC=Static 2
+[Solver]
+Knee_meshing-Static 2.MFC=Iterative
